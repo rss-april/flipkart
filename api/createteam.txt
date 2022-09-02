@@ -1,0 +1,6 @@
+echo "Create a team"
+curl \
+  -X POST \
+ -u Chavavenky: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  \
+  https://api.github.com/orgs/rss-april/teams \
+  -d '{"name":"testGithubapi","description":"A excelement team","permission":"push","privacy":"closed"}'
